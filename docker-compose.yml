@@ -12,5 +12,7 @@ services:
     networks:
       - gateway-net
 networks:
+  app-network:
+    driver: bridge
   gateway-net:
-    external: true 
+    external: true
